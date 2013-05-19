@@ -2,15 +2,21 @@
   "name": "php-express",
   "version": "0.0.0",
   "description": "enable express server to exec php.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "directories": {
+    "lib": "lib",
+    "example": "example"
   },
-  "repository": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fnobi/php-express.git"
+  },
   "keywords": [
     "php",
     "express"
   ],
   "author": "Fujisawa Shin",
-  "license": "BSD"
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "e9c37ba107ca844fd26c6f03e0d30fd7638031aa"
 }
