@@ -9,5 +9,5 @@
     parse_str(fread(STDIN, $_SERVER['CONTENT_LENGTH']), $_POST);
   }
 
-  require_once $argv[1];
-?>
+  chdir($argv[1]);
+  require_once $argv[2];
