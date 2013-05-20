@@ -1,6 +1,6 @@
 {
   "name": "php-express",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "enable express server to exec php.",
   "directories": {
     "lib": "lib",
