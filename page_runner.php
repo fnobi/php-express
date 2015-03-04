@@ -1,6 +1,8 @@
 <?php
   //parse the command line into the $_GET variable
-  parse_str($_SERVER['QUERY_STRING'], $_GET);
+  if ( isset($_SERVER) && array_key_exists('QUERY_STRING', $_SERVER) ) {
+    parse_str($_SERVER['QUERY_STRING'], $_GET);
+  }
 
   //parse the standard input into the $_POST variable
   if (($_SERVER['REQUEST_METHOD'] === 'POST')
