@@ -6,6 +6,10 @@
     "lib": "lib",
     "example": "example"
   },
+  "devDependencies": {
+    "grunt-release": "~0.7.0",
+    "grunt": "~0.4.5"
+  },
   "main": "index.js",
   "repository": {
     "type": "git",
