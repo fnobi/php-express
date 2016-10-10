@@ -6,7 +6,7 @@ Add PHP support to your express server.
 
 ### Express 4.x
 
-```
+```js
 var express = require('express');
 var app = express();
 
@@ -35,7 +35,7 @@ var server = app.listen(3000, function () {
 
 ### Express 3.x
 
-```
+```js
 var express = require('express'),
     http = require('http'),
     path = require('path'),
